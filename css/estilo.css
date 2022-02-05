@@ -12,6 +12,7 @@ menu {
     margin: 20px;
     width: auto;
     height: 20px;
+    display: flex;
 }
 
 footer {
@@ -31,7 +32,7 @@ footer {
 
 .log2 {
     font-weight: 100;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .icon {
@@ -58,11 +59,14 @@ footer {
 .perfil {
     background-color: #ffffff;
     width: auto;
-    height: 100px;
+    height: 110px;
     position: relative;
-    border-radius: 10px;
     padding: 10px 0 0 0;
     text-align: center;
+}
+
+.bordeinf {
+    border-bottom: 1px solid rgb(175, 168, 168);
 }
 
 .prof {
@@ -88,10 +92,9 @@ footer {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
     font-size: 16px;
-    top: 20px;
-    left: 820px;
+    margin: 10px 10px 10px 10px;
 }
 
 .btnseg {
@@ -101,11 +104,10 @@ footer {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
     font-size: 16px;
     border-radius: 5px;
-    top: 20px;
-    left: 960px;
+    margin: 10px 10px 10px 10px;
 }
 
 .cajav {
