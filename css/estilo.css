@@ -50,3 +50,8 @@ footer {
     margin: -110px 10px -155px 10px;
     padding: 10px 20px 10px 0px;
 }
+
+#navbarCollapse {
+    margin: 0 0 15px 0;
+    padding: 0 90px 0 0;
+}
